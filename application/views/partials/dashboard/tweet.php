@@ -1,0 +1,1 @@
+<a href="{$item.expanded_url}">{$item.page_title}</a>

@@ -1,0 +1,199 @@
+/* Override some defaults */
+html, body {
+	background-color: #e5e5e5;
+}
+
+body {
+	padding-top: 60px; /* 40px to make the container go all the way to the bottom of the topbar */
+}
+
+.container > footer p {
+	text-align: center; /* center align it with the container */
+}
+
+.sidebar .widget {
+	background-color: #fff;
+	padding: 20px;
+	margin-left: -40px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 0 6px 6px 0;
+	-moz-border-radius: 0 6px 6px 0;
+	border-radius: 0 6px 6px 0;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+}
+
+.sidebar .widget .row {
+	margin-left: 0;
+}
+
+.sidebar ul.userinfo {
+	list-style-type: none;
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+
+.sidebar ul.userinfo li {
+	border-right: 2px solid #000;
+	float: left;
+	padding: 0 6px 0 0;
+	margin: 0 0 0 16px;
+	text-align: right;
+}
+
+.sidebar ul.userinfo li h2 {
+	line-height: inherit;
+}
+
+
+.topbar .btn {
+	border: 0;
+}
+
+.brand {
+	width: 90px;
+}
+
+.brand img {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	display: inline;
+	width: 110px;
+	height: 28px;
+}
+
+
+footer {
+	color: #fff;
+	margin: 0 -20px;
+	padding: 20px;
+	background: #2a2a2a;
+	text-align: center;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer a:hover {
+	color: #fff;
+}
+
+footer pre {
+	margin: 50px;
+	color: #000;
+	text-align: left;
+}
+
+.footermenu {
+	text-align: left;
+}
+
+.footermenu ul {
+	list-style-type: none;
+}
+
+.footermenu ul li {
+	padding: 0;
+}
+
+table.items {
+	background-color: #fff;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+}
+
+h5.tweetheader,
+.created_at{
+	cursor: pointer;
+}
+
+.created_at {
+	background: url('../image/icons/date.png') no-repeat;
+	margin-left: 5px;
+	padding-left: 20px;
+}
+
+table.items:first-child {
+	-webkit-border-radius: 6px 6px 0 0;
+	-moz-border-radius: 6px 6px 0 0;
+	border-radius: 6px 6px 0 0;
+}
+
+table.items div.iteminfo {
+	margin-top: 8px;
+	display: none;
+}
+
+div.iteminfo > div {
+	background-color: #e5e5e5;
+	border: 1px solid #c5c5c5;
+	margin-bottom: 5px;
+	padding: 5px 5px 5px 24px;
+}
+
+table.items tr:hover {
+	background-color: #f7f7f7;
+}
+
+td.profile_image {
+	width: 40px;
+	height: 40px;
+	padding: 10px 10px 0px;
+	margin: 0;
+	line-height: 5px;
+}
+
+h5.tweetheader {
+	line-height: 22px;
+}
+
+.host {
+	padding-left: 20px;
+}
+
+.retweet_image {
+	border: 2px solid #fff;
+	position: relative;
+	bottom: 16px;
+	left: 24px;
+}
+
+.tweet {
+	background: url('../image/icons/twitter.png') no-repeat 5px 6px;
+}
+
+.tweet > ul {
+	margin: 5px 0 0 5px;
+	padding-left: 0;
+	list-style-type: none;
+	height: 16px;
+}
+
+.tweet > ul li {
+	float: left;
+	margin-right: 20px;
+}
+
+.url {
+	background: url('../image/icons/link.png') no-repeat 5px 6px;
+}
+
+.metadescription {
+	background: url('../image/icons/information.png') no-repeat 5px 6px;
+}
+
+.video {
+	background: url('../image/icons/movies.png') no-repeat 5px 6px;
+	width: 485px;
+}
+
+.twitter_link {
+	background: url('../image/icons/twitter.png') no-repeat 5px;
+	padding-left: 24px;
+	line-height: 20px;
+}
