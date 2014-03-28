@@ -7,6 +7,9 @@ I'm pretty sure it doesn't work anymore.
 
 Just released for educational purposes.
 
+A screenshot, what the app should look like is included. Might differ
+from the actual included version.
+
 The idea
 --------
 With gleanter I wanted to build a webapp that scans your Twitter timeline
